@@ -69,4 +69,9 @@ class MainActivity : AppCompatActivity(), MainActivityContract.View {
         binding.recyclerView.adapter = adapter
         binding.recyclerView.layoutManager = LinearLayoutManager(this)
     }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        compositeDisposable.clear()
+    }
 }
