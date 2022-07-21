@@ -28,11 +28,6 @@ class RecyclerAdapter (val placeObjs : List<Place>, val presenter : MainActivity
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
 
-        holder.binding.textView.text = placeObjs[position].name
-
-        holder.binding.textView.setOnClickListener{
-            presenter.onClickPlace(placeObjs[position])
-        }
 
     }
 
