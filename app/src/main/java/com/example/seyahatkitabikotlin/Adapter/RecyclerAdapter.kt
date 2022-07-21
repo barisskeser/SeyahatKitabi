@@ -13,8 +13,13 @@ class RecyclerAdapter (val placeObjs : List<Place>, val presenter : MainActivity
         val binding = RecyclerItemBinding.inflate(LayoutInflater.from(parent.context), parent, false)
 
 
+        println()
 
 
+
+        println("fdsf")
+        println("fdsf")
+        println("fdsf")
 
 
         return ViewHolder(binding)
