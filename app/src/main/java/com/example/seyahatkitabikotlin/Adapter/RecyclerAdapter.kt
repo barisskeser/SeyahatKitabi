@@ -12,6 +12,8 @@ class RecyclerAdapter (val placeObjs : List<Place>, val presenter : MainActivity
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val binding = RecyclerItemBinding.inflate(LayoutInflater.from(parent.context), parent, false)
 
+
+
         return ViewHolder(binding)
     }
 
