@@ -14,7 +14,9 @@ class RecyclerAdapter (val placeObjs : List<Place>, val presenter : MainActivity
 
 
 
-
+        println("fdsf")
+        println("fdsf")
+        println("fdsf")
 
 
         return ViewHolder(binding)
